@@ -1,0 +1,14 @@
+- name: Git personal email
+  git-config:
+    name: user.email
+    scope: global
+    value: jayeshpotlabattini@gmail.com
+  tags:
+  - git-personal
+- name: Git personal nane
+  git-config:
+    name: user.name
+    scope: global
+    value: JayeshVP24
+  tags:
+  - git-personal
